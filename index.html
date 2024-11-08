@@ -76,6 +76,38 @@
                 </div><!--dropzone-->
               </div><!--droparea-wrapper-->
             </fieldset><!--child-info-->
+
+            <fieldset class="address">
+              <legend>Endereço residencial</legend>
+              <div class="input-wrapper">
+                <label for="cep">CEP</label>
+                <input type="text" name="cep" id="cep">
+              </div><!--input-wrapper-->
+
+              <div class="flex">
+                <div class="input-wrapper flex-2">
+                  <label for="street">Rua</label>
+                  <input type="text" name="street" id="street" value="Rua das Flores" disabled>
+                </div><!--input-wrapper-->
+
+                <div class="input-wrapper flex-1">
+                  <label for="number">Número</label>
+                  <input type="number" name="number" id="number">
+                </div><!--input-wrapper-->
+              </div><!--flex-->
+
+              <div class="flex">
+                <div class="input-wrapper flex-2">
+                  <label for="city">Cidade</label>
+                  <input type="text" name="city" id="city" value="São Paulo" disabled>
+                </div><!--input-wrapper-->
+
+                <div class="input-wrapper flex-1">
+                  <label for="state">Estado</label>
+                  <input type="text" name="state" id="state" value="SP" disabled>
+                </div><!--input-wrapper-->
+              </div><!--flex-->
+            </fieldset><!--address-->
           </form>
         </div><!--main-container-->
       </main>
